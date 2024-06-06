@@ -143,19 +143,19 @@
             "id": "201",
             "category": "G",
             "type": "4",
-            "image": "ghr_201.jpg",
-            "question": "Je nadert een oversteekplaats voor voetgangers. Wat doe je?",
-            "options": ["remmen", "gas los laten", "niets doen"],
-            "answer": "remmen"
+            "image": "ef_343.jpg",
+            "question": "Hoeveel alcohol is maximaal toegestaan bij een beginnend bestuurder?\r\n",
+            "options": ["0,2 promille", "0,1 promille", "0,5 promille"],
+            "answer": "0,2 promille"
         },
         {
             "id": "202",
             "category": "G",
             "type": "4",
-            "image": "ghr_202.jpg",
-            "question": "Je rijdt 80 km/u en een auto voegt in. Wat doe je?",
-            "options": ["remmen", "gas los laten", "niets doen"],
-            "answer": "gas los laten"
+            "image": "ef_343.jpg",
+            "question": "Ben je onder invloed na het drinken van een Bacardi Breezer?",
+            "options": ["JA", "NEE" ],
+            "answer": "JA"
         },
         {
             "id": "203",
