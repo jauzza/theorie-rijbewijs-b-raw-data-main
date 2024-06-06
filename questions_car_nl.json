@@ -193,47 +193,47 @@
             "id": "206",
             "category": "G",
             "type": "4",
-            "image": "ghr_206.jpg",
-            "question": "Je nadert een bocht en het begint te regenen. Wat doe je?",
-            "options": ["remmen", "gas los laten", "niets doen"],
-            "answer": "gas los laten"
+            "image": "ef_341.jpg",
+            "question": "Pleegt een beginnend bestuurder een misdrijf wanneer deze een motorvoertuig bestuurt, met een adem-alcoholgehalte hoger dan 0,2 promille?",
+            "options": ["JA", "NEE"],
+            "answer": "JA"
         },
         {
             "id": "207",
             "category": "G",
             "type": "4",
-            "image": "ghr_207.jpg",
-            "question": "Je rijdt op een smalle weg en een tegenligger komt je tegemoet. Wat doe je?",
-            "options": ["remmen", "gas los laten", "niets doen"],
-            "answer": "gas los laten"
+            "image": "028.png",
+            "question": "Mag je een blaastest weigeren vanuit een geloofsovertuiging?",
+            "options": ["NEE", "JA"],
+            "answer": "NEE"
         },
         {
             "id": "208",
             "category": "G",
             "type": "4",
-            "image": "ghr_208.jpg",
-            "question": "Je nadert een rotonde en ziet dat het druk is. Wat doe je?",
-            "options": ["remmen", "gas los laten", "niets doen"],
-            "answer": "gas los laten"
+            "image": "ef_340.jpg",
+            "question": "Bestaan er drugs of medicijnen die jouw rijvaardigheid beïnvloeden?",
+            "options": ["JA", "NEE"],
+            "answer": "JA"
         },
         {
             "id": "209",
             "category": "G",
             "type": "4",
-            "image": "ghr_209.jpg",
-            "question": "Je rijdt 120 km/u. Wat doe je?",
+            "image": "ef_341.jpg",
+            "question": "Vanaf wanneer heeft alcohol invloed op jouw rijstijl?",
             "feedback": "Je houdt een veilige volgafstand tot de andere bestuurders. Let wel op: de vluchtstrook is geopend.",
-            "options": ["remmen", "gas los laten", "niets doen"],
-            "answer": "niets doen"
+            "options": ["Vanaf 0,1 promille", "Vanaf 0,2 promille", "Vanaf 1 promille"],
+            "answer": "Vanaf 0,1 promille"
         },
         {
             "id": "210",
             "category": "G",
             "type": "4",
-            "image": "ghr_210.jpg",
-            "question": "Je rijdt in de regen en ziet een plasje water op de weg. Wat doe je?",
-            "options": ["remmen", "gas los laten", "niets doen"],
-            "answer": "gas los laten"
+            "image": "028.png",
+            "question": "Kan de politie eisen dat je getest wordt als zij jou verdenken van drugs- en/of alcoholgebruik?",
+            "options": ["JA", "NEE"],
+            "answer": "JA"
         }
     ]
 }
