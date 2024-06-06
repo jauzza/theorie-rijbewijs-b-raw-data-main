@@ -65,10 +65,10 @@
             "id": "102",
             "category": "K",
             "type": "1",
-            "image": "ef_256.jpg",
-            "question": "Wanneer is het gedurende de dag gewenst om je dimlicht aan te zetten?",
-            "options": ["Altijd", "Met sneeuw of regen", "Met bewolking of mist"],
-            "answer": "Altijd"
+            "image": "J31.jpg",
+            "question": "Voor welke weggebruikers is dit bord bedoeld?",
+            "options": ["Alle weggebruikers", "Alleen bestuurders", "Bestuurders van voertuigen op 2 wielen"],
+            "answer": "Alle weggebruikers"
         },
         {
             "id": "103",
@@ -92,10 +92,10 @@
             "id": "105",
             "category": "K",
             "type": "1",
-        "image": "efvkr_224.jpg",
-        "question": "Waar komt aquaplaning vaker voor?",
-            "options": ["Linkerbaan", "Uitvoegstrook", "Rechterbaan"],
-            "answer": "Rechterbaan"
+            "image": "037.jpg",
+            "question": "Het begint te vriezen. Waar is er meer slipgevaar?",
+            "options": ["Bovenop viaducten en bruggen", "Onder viaducten en bruggen", "Op drukke wegen"],
+            "answer": "Bovenop viaducten en bruggen"
         },
         {
             "id": "106",
@@ -109,33 +109,37 @@
             "id": "107",
             "category": "K",
             "type": "1",
-            "question": "Wat betekent een blauw rond bord met een witte pijl naar rechts?",
-            "options": ["Gebod om rechtsaf te slaan", "Voorrang aan rechts", "Verboden rechts af te slaan"],
-            "answer": "Gebod om rechtsaf te slaan"
+            "image": "ef_097.JPG",
+            "question": "Je komt uit het bos en rijdt op een zandweg en wilt vervolgens de doorgaande rijbaan oprijden. Wie heeft er voorrang?",
+            "options": ["Bestuurders op de verharde weg", "Degene die van rechts komt", "Jij"],
+            "answer": "Bestuurders op de verharde weg"
         },
         {
             "id": "108",
             "category": "K",
             "type": "1",
-            "question": "Wat is de minimumsnelheid op een autosnelweg?",
-            "options": ["60 km/u", "70 km/u", "80 km/u"],
-            "answer": "60 km/u"
+            "image": "159.jpg",
+            "question": "Aan welke kant van de weg vind je dit paaltje?",
+            "options": ["Aan de linkerkant van de weg", "Aan de rechterkant van de weg"],
+            "answer": "Aan de linkerkant van de weg"
         },
         {
             "id": "109",
             "category": "K",
             "type": "1",
-            "question": "Wat betekent een verkeersbord met een rode cirkel en een witte binnenkant?",
-            "options": ["Verboden in te rijden", "Gebod om rechtdoor te rijden", "Einde van alle verboden"],
-            "answer": "Verboden in te rijden"
+            "image": "efvkr_147.jpg",
+            "question": "Wat kan er gebeuren nadat het opeens hard gaat regenen na een lange droge periode?",
+            "options": ["Rubber en olieresten maken het wegdek glad", "De regen wordt sneller opgenomen in het wegdek", "Door de regen op een droog wegdek zal ik sneller last hebben van aquaplaning"],
+            "answer": "Rubber en olieresten maken het wegdek glad"
         },
         {
             "id": "110",
             "category": "K",
             "type": "1",
-            "question": "Wat is de maximumsnelheid binnen de bebouwde kom?",
-            "options": ["30 km/u", "50 km/u", "70 km/u"],
-            "answer": "50 km/u"
+            "image": "169.jpg",
+            "question": "Wanneer kan aquaplaning plaatsvinden?",
+            "options": ["Wanneer het heel hard regent", "Wanneer het heel hard sneeuwt", "Beide"],
+            "answer": "Wanneer het heel hard regent"
         }
     ],
     "gevaarherkenning": [
