@@ -101,9 +101,10 @@
             "id": "106",
             "category": "K",
             "type": "1",
-            "question": "Wat is de toegestane alcoholpromillage voor een beginnende bestuurder?",
-            "options": ["0,2‰", "0,5‰", "0,8‰"],
-            "answer": "0,2‰"
+            "image": "058a.jpg",
+            "question": "Aan welke kant van de weg vind je dit paaltje?  ",
+            "options": ["Aan de rechterkant van de weg", "Aan de linkerkant van de weg",],
+            "answer": "Aan de rechterkant van de weg"
         },
         {
             "id": "107",
