@@ -55,12 +55,25 @@ function showQuestion(question) {
 
 function selectAnswer(selectedIndex) {
     const correctAnswer = parseInt(questions[currentQuestionIndex].correct, 10);
+    const options = document.getElementById('answers').getElementsByTagName('button');
+
+    // Loop door alle antwoordknoppen en voeg de juiste klasse toe aan het geselecteerde antwoord
+    for (let i = 0; i < options.length; i++) {
+        if (i === selectedIndex) {
+            options[i].classList.add('selected');
+        } else {
+            options[i].classList.remove('selected');
+        }
+    }
+
+    // Controleer of het geselecteerde antwoord correct is
     if (selectedIndex === correctAnswer) {
         alert('Correct!');
     } else {
         alert('Onjuist, probeer het opnieuw.');
     }
 }
+
 
 function nextQuestion() {
     currentQuestionIndex++;
