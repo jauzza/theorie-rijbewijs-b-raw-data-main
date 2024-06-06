@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBR Resultaat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .geslaagd {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .gezakt {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .fouten {
+            margin-top: 30px;
+            text-align: left;
+        }
+        .fouten h2 {
+            color: #333;
+            font-size: 22px;
+        }
+        .fouten table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .fouten th, .fouten td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .fouten th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .fouten tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CBR Examen Resultaat</h1>
+        <p>Naam Kandidaat: <strong>Jan Jansen</strong></p>
+        <p>Examen Datum: <strong>01-05-2024</strong></p>
+        <p>Type Examen: <strong>Theorie</strong></p>
+        <!-- Het resultaat kan worden aangepast naar "geslaagd" of "gezakt" -->
+        <div class="result geslaagd">
+            U bent <strong>geslaagd</strong> voor het examen!
+        </div>
+        <!-- Voor gezakt resultaat, gebruik de volgende div in plaats van bovenstaande -->
+        <!-- <div class="result gezakt">
+            U bent <strong>gezakt</strong> voor het examen.
+        </div> -->
+        
+        <div class="fouten">
+            <h2>Fouten Overzicht</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Onderdeel</th>
+                        <th>Vraag</th>
+                        <th>Juiste Antwoord</th>
+                        <th>Uw Antwoord</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kennis</td>
+                        <td>Vraag 3</td>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>Gevaarherkenning</td>
+                        <td>Vraag 7</td>
+                        <td>Remmen</td>
+                        <td>Gas loslaten</td>
+                    </tr>
+                    <tr>
+                        <td>Situatie</td>
+                        <td>Vraag 12</td>
+                        <td>C</td>
+                        <td>D</td>
+                    </tr>
+                    <!-- Voeg meer vragen toe indien nodig -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

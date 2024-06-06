@@ -9,8 +9,10 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>CBR Theorie Toets</h1>
+            <h1>CBR Theorie Examen</h1>
+            <h2></h2>
             <div id="timer">Resterende tijd: <span id="time">15:00</span></div>
+            <div id="question-timer">Tijd: 8s</div>
         </div>
         <div id="question-container">
             <img id="question-image" src="" alt="">
@@ -20,7 +22,8 @@
             </div>
         </div>
         <div class="navigation">
-            <button id="previous-button" onclick="previousQuestion()">Vorige</button>
+            <button id="back-button" onclick="previousQuestion()">Vorige</button>
+            <div style="flex-grow: 1;"></div> 
             <button id="next-button" onclick="nextQuestion()">Volgende Vraag</button>
         </div>
     </div>

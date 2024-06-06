@@ -56,30 +56,34 @@
             "id": "101",
             "category": "K",
             "type": "1",
-            "question": "Wat is de toegestane maximumsnelheid op een autoweg?",
-            "options": ["80 km/u", "100 km/u", "120 km/u"],
-            "answer": "100 km/u"
+            "image": "c08.png",
+            "question": "Mag een brommobiel hier inrijden?",
+            "options": ["JA", "NEE"],
+            "answer": "JA"
         },
         {
             "id": "102",
             "category": "K",
             "type": "1",
-            "question": "Wat betekent een omgekeerde driehoek met een rode rand?",
-            "options": ["Voorrang geven", "Stoppen", "Verboden in te rijden"],
-            "answer": "Voorrang geven"
+            "image": "ef_256.jpg",
+            "question": "Wanneer is het gedurende de dag gewenst om je dimlicht aan te zetten?",
+            "options": ["Altijd", "Met sneeuw of regen", "Met bewolking of mist"],
+            "answer": "Altijd"
         },
         {
             "id": "103",
             "category": "K",
             "type": "1",
-            "question": "Wanneer moet je richting aangeven op een rotonde?",
-            "options": ["Bij het naderen van de rotonde", "Bij het verlaten van de rotonde", "Helemaal niet"],
-            "answer": "Bij het verlaten van de rotonde"
+            "image": "310.jpg",
+            "question": "Je hebt pech is dit een veilige plaats om als persoon te wachten?",
+            "options": ["JA", "NEE"],
+            "answer": "JA"
         },
         {
             "id": "104",
             "category": "K",
             "type": "1",
+            "image": "efvkr_224.jpg",
             "question": "Wat betekent een gele doorgetrokken streep langs de weg?",
             "options": ["Parkeerverbod", "Stopverbod", "Voorrang verlenen"],
             "answer": "Parkeerverbod"
@@ -88,9 +92,10 @@
             "id": "105",
             "category": "K",
             "type": "1",
-            "question": "Wat moet je doen bij een STOP-bord?",
-            "options": ["Stoppen en voorrang verlenen", "Afslaan", "Doorrijden"],
-            "answer": "Stoppen en voorrang verlenen"
+        "image": "efvkr_224.jpg",
+        "question": "Waar komt aquaplaning vaker voor?",
+            "options": ["Linkerbaan", "Uitvoegstrook", "Rechterbaan"],
+            "answer": "Rechterbaan"
         },
         {
             "id": "106",
